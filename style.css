@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+	background-color: #9bd8ea;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	
+}
+
+div#top_nav {
+	display: inline-block;
+	position: sticky;
+	width: 100vw;
+	height: 100px;
+	word-spacing: 50px;
+	margin-left: 20px;
+}
+
+a{
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vw;
+	text-decoration: none;
+	color: black;
+	padding-top: 30px;
+}
+
+a:hover {
+	color: white;
+}
+div#middle_content {
+	background-color: white;
+	display: inline-block;
+	width: 100vw;
+	height: 600px;
+	font-size: 5vw;
+	font-family: 'Raleway', sans-serif;
+}
+
+img#logo {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+div#bottom {
+	font-size: 5vw;
+	font-family: 'Raleway', sans-serif;
+	word-spacing: 80px;
+	margin-top: 40px;
+}
+
+img#lethbridge {
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	width: 100vw;
+	height: auto;
+	border: 5px solid black;
+	
+}
